@@ -4,4 +4,7 @@
                 sox input.m4a -G -t wav -r 16000 - remix 1,2  | sox -t \
                               wav - -t wav - speed 0.9 sox --vol 0.316 -t wav - -t \ 
                               wav - | sox -t wav - -t wav output.wav trim 125.34 10.82 
+4) Decoding with kaldi NNET3      : https://medium.com/@nithinraok_/decoding-an-audio-file-using-a-pre-trained-model-with-kaldi-c1d7d2fe3dc5
+
+                                  
   
