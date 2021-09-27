@@ -1,0 +1,7 @@
+1) Using xconfig in kaldi         : http://www.gerardoroadabike.com/blog/2019/11/21/Kaldi_NNET3_config.html
+2) Example of multi-learn-tasking : https://github.com/JRMeyer/multi-task-kaldi
+3) Examples of the sox command    : http://www.gerardoroadabike.com/blog/2019/06/09/SoX_Notes.html
+                sox input.m4a -G -t wav -r 16000 - remix 1,2  | sox -t \
+                              wav - -t wav - speed 0.9 sox --vol 0.316 -t wav - -t \ 
+                              wav - | sox -t wav - -t wav output.wav trim 125.34 10.82 
+  
