@@ -5,6 +5,8 @@
                               wav - -t wav - speed 0.9 sox --vol 0.316 -t wav - -t \ 
                               wav - | sox -t wav - -t wav output.wav trim 125.34 10.82 
 4) Decoding with kaldi NNET3      : https://medium.com/@nithinraok_/decoding-an-audio-file-using-a-pre-trained-model-with-kaldi-c1d7d2fe3dc5
+5) Kaldi as a microService        : https://github.com/ShannonAI/service-streamer.git
+                Requires AWS, kaldi, Lambda
 
                                   
   
